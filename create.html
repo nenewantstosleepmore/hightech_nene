@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="create.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Noto+Sans+JP:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Create Page</title>
+    <script src="https://kit.fontawesome.com/77d8eb86f2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="dropdown">
+        <button id="profileBtn">
+            <i class="fa-solid fa-user"></i>        
+        </button>
+        <div class="profile">
+            <img src="nene.gif" class="gif">
+            <p>Neranchala Pukwilaikeat</p>
+        </div>
+    </div>
+
+    <center><h2>Create Page</h2></center>
+    <form id="createForm">
+        <label for="topic">Topic :</label>
+        <input type="text" id="topic">
+        <br><br>
+        <label for="writer">Writer :</label>
+        <input type="text" id="writer">
+        
+        <br>
+
+        <textarea id="content" placeholder="Type new Document here. . ."></textarea>
+    
+        <center><button id="submitBtn" type="submit">Submit</button></center>
+    </form>
+    
+    <button id="homeBtn" onclick="location.href='main.html'">
+            <i class="fa-solid fa-house"></i>        
+    </button>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
